@@ -1,0 +1,417 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "path": "/home/index",
+      "name": "home",
+      "component": "/home/index",
+      "meta": {
+        "icon": "HomeFilled",
+        "title": "首页",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": true,
+        "isKeepAlive": true
+      }
+    },
+    {
+      "path": "/stone",
+      "name": "stone",
+      "component": "/stone/stone",
+      "meta": {
+        "icon": "Share",
+        "title": "骨料管理",
+        "isLink": "",
+        "isHide": false,
+        "isFull": true,
+        "isAffix": false,
+        "isKeepAlive": true
+      }
+    },
+    {
+      "path": "/products",
+      "name": "products",
+      "component": "/products/products",
+      "meta": {
+        "icon": "Grid",
+        "title": "设计成品管理",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": true
+      }
+    },
+    {
+      "path": "/companyproduct",
+      "name": "companyproduct",
+      "component": "/companyproduct/companyproduct",
+      "meta": {
+        "icon": "Promotion",
+        "title": "企业产品管理",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": true
+      }
+    },
+    {
+      "path": "/consult",
+      "name": "consult",
+      "component": "/consult/consult",
+      "meta": {
+        "icon": "Comment",
+        "title": "咨询管理",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": true
+      }
+    },
+    {
+      "path": "/account",
+      "name": "account",
+      "children": [
+        {
+          "path": "/setaccount",
+          "name": "setaccount",
+          "component": "/account/setaccount/setaccount",
+          "meta": {
+            "icon": "CirclePlusFilled",
+            "title": "用户账号管理",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        },
+        {
+          "path": "/accounttype",
+          "name": "accounttype",
+          "component": "/account/accounttype/accounttype",
+          "meta": {
+            "icon": "Histogram",
+            "title": "账号类型管理",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        }
+      ],
+      "meta": {
+        "icon": "Management",
+        "title": "用户管理",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": true
+      }
+    },
+    {
+      "path": "/enterprise",
+      "name": "enterprise",
+      "children": [
+        {
+          "path": "/setenterprise",
+          "name": "setenterprise",
+          "component": "/enterprise/setenterprise/setenterprise",
+          "meta": {
+            "icon": "Checked",
+            "title": "企业信息管理",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        },
+        {
+          "path": "/setenterpriseprice",
+          "name": "setenterpriseprice",
+          "component": "/enterprise/setenterpriseprice/setenterpriseprice",
+          "meta": {
+            "icon": "Ticket",
+            "title": "企业价位设定",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        },
+        {
+          "path": "/settledaudit",
+          "name": "settledaudit",
+          "component": "/enterprise/settledaudit/settledaudit",
+          "meta": {
+            "icon": "Failed",
+            "title": "入驻申请管理",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        }
+      ],
+      "meta": {
+        "icon": "TrendCharts",
+        "title": "企业信息",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": true
+      }
+    },
+    {
+      "path": "/advindexbanner",
+      "name": "advindexbanner",
+      "component": "/adv/advindexbanner/advindexbanner",
+      "meta": {
+        "icon": "List",
+        "title": "首页banner",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": true
+      },
+      "children": [
+        {
+          "path": "/advindexbanner",
+          "name": "advindexbanner",
+          "component": "/adv/advindexbanner/advindexbanner",
+          "meta": {
+            "icon": "Platform",
+            "title": "首页banner",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        },
+        {
+          "path": "/advstone",
+          "name": "advstone",
+          "component": "/adv/advstone/advstone",
+          "meta": {
+            "icon": "BellFilled",
+            "title": "骨料社区广告",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        },
+        {
+          "path": "/adventerprise",
+          "name": "adventerprise",
+          "component": "/adv/adventerprise/adventerprise",
+          "meta": {
+            "icon": "HomeFilled",
+            "title": "企业社区广告",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        },
+        {
+          "path": "/advcases",
+          "name": "advcases",
+          "component": "/adv/advcases/advcases",
+          "meta": {
+            "icon": "HomeFilled",
+            "title": "精品案例广告",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        },
+        {
+          "path": "/advtds",
+          "name": "advtds",
+          "component": "/adv/advtds/advtds",
+          "meta": {
+            "icon": "HomeFilled",
+            "title": "TDS设计系统广告",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        },
+        {
+          "path": "/advmaylike",
+          "name": "advmaylike",
+          "component": "/adv/advmaylike/advmaylike",
+          "meta": {
+            "icon": "HomeFilled",
+            "title": "猜你喜欢",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        },
+        {
+          "path": "/advindexstone",
+          "name": "advindexstone",
+          "component": "/adv/advindexstone/advindexstone",
+          "meta": {
+            "icon": "HomeFilled",
+            "title": "首页骨料广告",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        },
+        {
+          "path": "/advindexcases",
+          "name": "advindexcases",
+          "component": "/adv/advindexcases/advindexcases",
+          "meta": {
+            "icon": "HomeFilled",
+            "title": "首页精品案例",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        },
+        {
+          "path": "/advindexenterprise",
+          "name": "advindexenterprise",
+          "component": "/adv/advindexenterprise/advindexenterprise",
+          "meta": {
+            "icon": "HomeFilled",
+            "title": "首页企业广告",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        }
+      ]
+    },
+
+    {
+      "path": "/boutiquecase",
+      "name": "boutiquecase",
+      "component": "/boutiquecase/boutiquecase",
+      "meta": {
+        "icon": "HomeFilled",
+        "title": "精品案例管理",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": true
+      }
+    },
+    {
+      "path": "/menus",
+      "name": "menus",
+      "component": "/menus/menus",
+      "meta": {
+        "icon": "HomeFilled",
+        "title": "栏目配置",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": true
+      }
+    },
+    {
+      "path": "/systemconfig",
+      "name": "systemconfig",
+      "component": "/systemconfig/systemconfig",
+      "meta": {
+        "icon": "HomeFilled",
+        "title": "系统配置",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": true
+      }
+    },
+    {
+      "path": "/message",
+      "name": "message",
+      "component": "/message/message",
+      "meta": {
+        "icon": "HomeFilled",
+        "title": "系统消息通知",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": true
+      }
+    },
+    {
+      "path": "/agreement",
+      "name": "agreement",
+      "component": "/agreement/agreement",
+      "meta": {
+        "icon": "HomeFilled",
+        "title": "用户协议配置",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": true
+      }
+    },
+    {
+      "path": "/template",
+      "name": "template",
+      "component": "/template/template",
+      "meta": {
+        "icon": "HomeFilled",
+        "title": "打样管理",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": true
+      }
+    },
+    {
+      "path": "/customer",
+      "name": "customer",
+      "component": "/customer/customer",
+      "meta": {
+        "icon": "HomeFilled",
+        "title": "客户咨询",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": true
+      }
+    }
+  ],
+  "msg": "成功"
+}
